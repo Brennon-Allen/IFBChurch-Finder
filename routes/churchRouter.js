@@ -6,6 +6,7 @@ const Church = require('../models/church.js') //import inventory from mongoose m
 churchRouter.get("/", async (req, res, next) => {
     try {
         const foundChurches = await Church.find()
+        console.log(foundChurches)
         res.status(200).send(foundChurches)
     } catch (error) {
         res.status(500)
