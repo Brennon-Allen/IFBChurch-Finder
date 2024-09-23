@@ -26,3 +26,9 @@ input {
 input::placeholder {
   text-align: center;
 }
+
+.church--list {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}

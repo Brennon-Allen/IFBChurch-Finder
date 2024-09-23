@@ -14,6 +14,8 @@ export default function ChurchList() {
 
     return (
         <div className="church--list">
+            <h1>Church List</h1>
+            <p>Awaiting </p>
             {churchList.map((item, index) => {
                 return <h1 className="church--name" key={index}>{item.name}</h1>
             })}
