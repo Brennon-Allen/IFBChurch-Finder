@@ -15,7 +15,7 @@ export default function ChurchList() {
     return (
         <div className="church--list">
             <h1>Church List</h1>
-            <p>Awaiting </p>
+            <p>Awaiting coding on backend to make the form work, and also show what's already in the database.</p>
             {churchList.map((item, index) => {
                 return <h1 className="church--name" key={index}>{item.name}</h1>
             })}
