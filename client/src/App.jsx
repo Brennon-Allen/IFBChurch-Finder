@@ -4,12 +4,6 @@ import ChurchList from './components/ChurchList'
 
 function App() {
 
-  useEffect(() => {
-    axios.get('/')
-        .then(res => console.log(res))
-        .catch(err => console.log(err))
-  }, [])
-
   return (
     <>
       <AddForm />

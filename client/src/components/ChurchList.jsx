@@ -4,13 +4,13 @@ import { useState, useEffect } from 'react'
 export default function ChurchList() { 
     const [churchList, setChurchList] = useState([])
 
-    // useEffect(() => {
-    //     axios.get('/')
-    //         .then(res => console.log(res))
-    //         .catch(err => console.log(err))
-    // }, [])
+    useEffect(() => {
+        axios.get('/')
+            .then(data => console.log(data))
+            .catch(error => console.log(error))
+    }, [])
 
-    console.log(churchList)
+
 
     return (
         <div className="church--list">
