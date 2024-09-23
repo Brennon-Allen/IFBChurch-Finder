@@ -1,0 +1,28 @@
+.church--form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.church--container {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 15px;
+}
+
+input {
+  width: 300px;
+}
+
+input::placeholder {
+  text-align: center;
+}
