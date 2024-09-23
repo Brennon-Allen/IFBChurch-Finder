@@ -9,6 +9,10 @@ export default function ChurchList() {
     //         .then(data => console.log(data))
     //         .catch(error => console.log(error))
     // }, [])
+                
+    /* {churchList.map((item, index) => {
+                return <h3 className="church--name" key={index}>{item.name}</h3>
+        })} */
 
 
 
@@ -16,9 +20,6 @@ export default function ChurchList() {
         <div className="church--list">
             <h1>Church List</h1>
             <p>Awaiting coding on backend to make the form work, and also show what's already in the database.</p>
-            {/* {churchList.map((item, index) => {
-                return <h3 className="church--name" key={index}>{item.name}</h3>
-            })} */}
         </div>
     )
 }
